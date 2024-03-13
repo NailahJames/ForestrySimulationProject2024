@@ -226,5 +226,4 @@ Removing musicians
 	6.3.1 row and position is not 0, make it 0. Output that the musician was removed
       else
 	6.3.2 there is no musician there so the spot is already vacant
-
 */
