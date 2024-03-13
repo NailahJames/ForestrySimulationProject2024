@@ -8,8 +8,8 @@ class Kindle {
     private int totalPages;
 //----"Kindle" constructor to receive number of pages in the book. Needs a "this." to stop from switching private ints
     public Kindle(int totalNumberOfPages) {
-        totalPages = totalNumberOfPages;
-        currentPage = 1;
+        this.totalPages = totalNumberOfPages;
+        this.currentPage = 1;
     }
 //----turnPages
     public void turnPages() {

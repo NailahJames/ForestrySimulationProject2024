@@ -17,7 +17,6 @@ public class Studying {
             System.out.println(" --> Value: " + grades[index]); /* 7. THIS IS WHAT WILL DISPLAY EACH ELEMENT
                                                                       Just do arrayName[index]
                                                                                                 */
-
         }
     }
 
