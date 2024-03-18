@@ -74,11 +74,11 @@ public class BandOfTheHour {
             char rowLabel = (char) ('A' + index);
             System.out.print(rowLabel + ":");
             for (double weight : rows[index]) {
-                System.out.printf("%7.1f", weight);
+                System.out.printf("%5.1f", weight);
             }
             double totalWeight = calculateTotalWeightInRow(rows[index]);
             double averageWeight = calculateAverageWeight(rows[index]);
-            System.out.printf("    [ %7.1f, %7.1f]%n", totalWeight, averageWeight);
+            System.out.printf("    [ %5.1f, %5.1f]%n", totalWeight, averageWeight);
         }
     }//end of printStadium method
 
