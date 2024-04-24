@@ -21,17 +21,18 @@ private static Scanner keyboard = new Scanner(System.in);
         System.out.println(particle);
 
     //----do-while loop prompts user to enter the movement, stops when user enters 0.0 0.0
-        do {
+
+        while(true) {
             System.out.print("Enter movement: ");
             xDirection = keyboard.nextDouble();
             yDirection = keyboard.nextDouble();
-            if (xDirection != 0.0 || yDirection != 0.0) {
-                particle.translateParticleDirection(xDirection,yDirection);
-                System.out.println(particle);
+            particle.translateParticleDirection(xDirection,yDirection);
+            System.out.println(particle);
+            if(xDirection == 0.0 && yDirection == 0.0) {
+                break;
             }
-        } while (xDirection != 0.0 || yDirection != 0.0);
-
+        }
         }
 
-}
+}//end of the UseFluidParticles class
 

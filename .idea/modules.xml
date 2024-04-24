@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CSCS120_SPRING2024.iml" filepath="$PROJECT_DIR$/CSCS120_SPRING2024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForestrySimulation/ForestrySimulation.iml" filepath="$PROJECT_DIR$/ForestrySimulation/ForestrySimulation.iml" />
     </modules>
   </component>
 </project>
